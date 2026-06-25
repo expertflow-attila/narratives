@@ -1,0 +1,1386 @@
+{
+  "name": "clean",
+  "fileCount": 197,
+  "totalBytes": 74848328,
+  "files": [
+    {
+      "path": "401.html",
+      "size": 5061,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "404.html",
+      "size": 3857,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "CLAUDE.md",
+      "size": 3896,
+      "ext": "md",
+      "kind": "other",
+      "binary": false
+    },
+    {
+      "path": "about.html",
+      "size": 74084,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "careers.html",
+      "size": 64359,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "contact/contact-a.html",
+      "size": 82502,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "contact/contact-b.html",
+      "size": 73506,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "contact/contact-c.html",
+      "size": 77485,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "css/base.css",
+      "size": 38513,
+      "ext": "css",
+      "kind": "css",
+      "binary": false
+    },
+    {
+      "path": "css/normalize.css",
+      "size": 7772,
+      "ext": "css",
+      "kind": "css",
+      "binary": false
+    },
+    {
+      "path": "css/styles.css",
+      "size": 178260,
+      "ext": "css",
+      "kind": "css",
+      "binary": false
+    },
+    {
+      "path": "detail_careers.html",
+      "size": 58789,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "detail_news-insights.html",
+      "size": 58219,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "fonts/Geist-VariableFont_wght.ttf",
+      "size": 148832,
+      "ext": "ttf",
+      "kind": "font",
+      "binary": true
+    },
+    {
+      "path": "fonts/GeistMono-VariableFont_wght.ttf",
+      "size": 137804,
+      "ext": "ttf",
+      "kind": "font",
+      "binary": true
+    },
+    {
+      "path": "fonts/Raveo-Display-Medium.woff2",
+      "size": 57428,
+      "ext": "woff2",
+      "kind": "font",
+      "binary": true
+    },
+    {
+      "path": "homepage/home-b.html",
+      "size": 99076,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "homepage/home-c.html",
+      "size": 98059,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "images/2d91122cc0046d7f2d6d3c2636d1f1fe_OG-p-1080.jpg",
+      "size": 40004,
+      "ext": "jpg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/2d91122cc0046d7f2d6d3c2636d1f1fe_OG-p-500.jpg",
+      "size": 12830,
+      "ext": "jpg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/2d91122cc0046d7f2d6d3c2636d1f1fe_OG-p-800.jpg",
+      "size": 25542,
+      "ext": "jpg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/404-p-1080.webp",
+      "size": 17516,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/404-p-500.webp",
+      "size": 5802,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/404-p-800.webp",
+      "size": 11286,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/404.gif",
+      "size": 2844421,
+      "ext": "gif",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/404.webp",
+      "size": 36832,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/About_1.webp",
+      "size": 121430,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/About_1About.webp",
+      "size": 93008,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/About_2-p-1080.webp",
+      "size": 31388,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/About_2-p-500.webp",
+      "size": 13118,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/About_2-p-800.webp",
+      "size": 22848,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/About_2.webp",
+      "size": 41480,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Article-Body-Image.webp",
+      "size": 42944,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/ArticleBodyImage.webp",
+      "size": 56358,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Author.webp",
+      "size": 1212,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/AuthorContact.webp",
+      "size": 1374,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Blog-Article-p-1080.webp",
+      "size": 36476,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Blog-Article-p-500.webp",
+      "size": 14082,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Blog-Article-p-800.webp",
+      "size": 24918,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Blog-p-1080.webp",
+      "size": 35040,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Blog-p-500.webp",
+      "size": 13070,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Blog-p-800.webp",
+      "size": 23894,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Blog.webp",
+      "size": 48968,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/BlogArticle.webp",
+      "size": 47954,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/ButtonIcon.webp",
+      "size": 584,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Career-Page-p-1080.webp",
+      "size": 51108,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Career-Page-p-500.webp",
+      "size": 17972,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Career-Page-p-800.webp",
+      "size": 34622,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/CareerPage.webp",
+      "size": 73880,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Careers_1.webp",
+      "size": 152212,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Careers_1Careers.webp",
+      "size": 77944,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Careers_2-p-1080.webp",
+      "size": 30966,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Careers_2-p-500.webp",
+      "size": 11366,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Careers_2-p-800.webp",
+      "size": 21612,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Careers_2.webp",
+      "size": 46684,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/CheckedCheckbox.svg",
+      "size": 584,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Company-logo.svg",
+      "size": 3885,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Company-logo3.svg",
+      "size": 7918,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Company-logo4.svg",
+      "size": 7122,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Companylogo1.svg",
+      "size": 8230,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Companylogo5.svg",
+      "size": 7118,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Companylogo6.svg",
+      "size": 5426,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Companylogo7.svg",
+      "size": 12569,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Companylogo8.svg",
+      "size": 5634,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Contact-1-p-1080.webp",
+      "size": 32258,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Contact-1-p-500.webp",
+      "size": 12068,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Contact-1-p-800.webp",
+      "size": 22928,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Contact-2-p-1080.webp",
+      "size": 35372,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Contact-2-p-500.webp",
+      "size": 12896,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Contact-2-p-800.webp",
+      "size": 24260,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Contact-3-p-1080.webp",
+      "size": 20110,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Contact-3-p-500.webp",
+      "size": 6824,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Contact-3-p-800.webp",
+      "size": 13476,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Contact1.webp",
+      "size": 42638,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Contact2.webp",
+      "size": 50726,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Contact3.webp",
+      "size": 27750,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/ContactSupport-1.webp",
+      "size": 6362,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/ContactSupport.webp",
+      "size": 5632,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/End-to-End.webp",
+      "size": 36520,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/EndtoEnd.webp",
+      "size": 74212,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Expandable-Image-1.webp",
+      "size": 28998,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Expandable-Image.webp",
+      "size": 19226,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/ExpandableImage-1.webp",
+      "size": 58360,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/ExpandableImage.webp",
+      "size": 40932,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Feature-Image.webp",
+      "size": 55624,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Feature-Image3.webp",
+      "size": 64114,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/FeatureImage.webp",
+      "size": 134194,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/FeatureImage3.webp",
+      "size": 73458,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Gallery-Image.webp",
+      "size": 28068,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/GalleryImage.webp",
+      "size": 37680,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Graph-Image-1.webp",
+      "size": 18100,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Graph-Image-2.webp",
+      "size": 9864,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Graph-Image.webp",
+      "size": 30274,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/GraphImage-1.webp",
+      "size": 29660,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/GraphImage-2.webp",
+      "size": 22450,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/GraphImage.webp",
+      "size": 62208,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Home-1-p-1080.webp",
+      "size": 31016,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Home-1-p-500.webp",
+      "size": 11082,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Home-1-p-800.webp",
+      "size": 20964,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Home-2-p-1080.webp",
+      "size": 22884,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Home-2-p-500.webp",
+      "size": 8868,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Home-2-p-800.webp",
+      "size": 16256,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Home-3-p-1080.webp",
+      "size": 42834,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Home-3-p-500.webp",
+      "size": 15580,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Home-3-p-800.webp",
+      "size": 29604,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Home-A.webp",
+      "size": 73190,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Home-C.webp",
+      "size": 177984,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Home1.webp",
+      "size": 53136,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Home2.webp",
+      "size": 31478,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Home3.webp",
+      "size": 61218,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/HomeA.webp",
+      "size": 108144,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/HomeC.webp",
+      "size": 239222,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/IMG-3_1.webp",
+      "size": 23776,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/IMG-3_1IMG-3.webp",
+      "size": 8638,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/IMG-4_1.webp",
+      "size": 41172,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/IMG-4_1IMG-4.webp",
+      "size": 27874,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/IMG-5_1.webp",
+      "size": 53578,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/IMG-5_1IMG-5.webp",
+      "size": 21368,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Legal-p-1080.webp",
+      "size": 27518,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Legal-p-500.webp",
+      "size": 8326,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Legal-p-800.webp",
+      "size": 17514,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Legal.webp",
+      "size": 40460,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Logo.svg",
+      "size": 4745,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Map_1.webp",
+      "size": 215596,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Map_1Map.webp",
+      "size": 157896,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/OG.jpg",
+      "size": 287981,
+      "ext": "jpg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Password-p-1080.webp",
+      "size": 6046,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Password-p-500.webp",
+      "size": 2280,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Password-p-800.webp",
+      "size": 4086,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Password.webp",
+      "size": 8608,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Pricing-p-1080.webp",
+      "size": 32010,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Pricing-p-500.webp",
+      "size": 10504,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Pricing-p-800.webp",
+      "size": 21464,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Pricing.webp",
+      "size": 45378,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Service-1-p-1080.webp",
+      "size": 42818,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Service-1-p-500.webp",
+      "size": 15980,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Service-1-p-800.webp",
+      "size": 30050,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Service-2-p-1080.webp",
+      "size": 43294,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Service-2-p-500.webp",
+      "size": 15256,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Service-2-p-800.webp",
+      "size": 29454,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Service-3-p-1080.webp",
+      "size": 30168,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Service-3-p-500.webp",
+      "size": 12020,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Service-3-p-800.webp",
+      "size": 20968,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Service1.webp",
+      "size": 60476,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Service2.webp",
+      "size": 63664,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Service3.webp",
+      "size": 39584,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/ServiceB_1.webp",
+      "size": 222954,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/ServiceB_1ServiceB.webp",
+      "size": 167386,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/ServiceB_2.webp",
+      "size": 176940,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/ServiceB_2Service B.webp",
+      "size": 79284,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/TeamImage-1.webp",
+      "size": 28796,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/TeamImage-2.webp",
+      "size": 12530,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/TeamImage-3.webp",
+      "size": 21714,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/TeamImage-4.webp",
+      "size": 28322,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/TeamImage-5.webp",
+      "size": 27260,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/TeamImage.webp",
+      "size": 22084,
+      "ext": "webp",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Wdiget-1.svg",
+      "size": 115884,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/Wdiget.svg",
+      "size": 58688,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/_assets/685544e836b038d602b7f814_BYQ.svg",
+      "size": 1253,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/_assets/685544e89299c1a5846a8281_Figma.svg",
+      "size": 977,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/_assets/68cd2096e75d954138d21cd4_2d91122cc0046d7f2d6d3c2636d1f1fe_OG.jpg",
+      "size": 287981,
+      "ext": "jpg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/_assets/custom-checkbox-checkmark.589d534424.svg",
+      "size": 167,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/_assets/placeholder.60f9b1840c.svg",
+      "size": 285,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/favicon.svg",
+      "size": 1306,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "images/webclip.svg",
+      "size": 1373,
+      "ext": "svg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "index.html",
+      "size": 94089,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "job-single-no-cms.html",
+      "size": 61481,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "js/main.js",
+      "size": 2424849,
+      "ext": "js",
+      "kind": "js",
+      "binary": false
+    },
+    {
+      "path": "js/vendor/SplitText.min.js",
+      "size": 7732,
+      "ext": "js",
+      "kind": "js",
+      "binary": false
+    },
+    {
+      "path": "js/vendor/gsap.min.js",
+      "size": 72435,
+      "ext": "js",
+      "kind": "js",
+      "binary": false
+    },
+    {
+      "path": "js/vendor/jquery.min.js",
+      "size": 89476,
+      "ext": "js",
+      "kind": "js",
+      "binary": false
+    },
+    {
+      "path": "news-insights.html",
+      "size": 62918,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "pricing.html",
+      "size": 73781,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "privacy-policy.html",
+      "size": 59245,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "service/service-a.html",
+      "size": 74470,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "service/service-b.html",
+      "size": 99325,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "service/service-c.html",
+      "size": 70804,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "static-template-slug-1754571107327.html",
+      "size": 54736,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "template/changelog.html",
+      "size": 38532,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "template/licenses.html",
+      "size": 41000,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "template/style-guide.html",
+      "size": 82008,
+      "ext": "html",
+      "kind": "html",
+      "binary": false
+    },
+    {
+      "path": "videos/CTA-poster-00001.jpg",
+      "size": 60499,
+      "ext": "jpg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "videos/CTA-transcode.mp4",
+      "size": 1351444,
+      "ext": "mp4",
+      "kind": "video",
+      "binary": true
+    },
+    {
+      "path": "videos/CTA-transcode.webm",
+      "size": 1488173,
+      "ext": "webm",
+      "kind": "video",
+      "binary": true
+    },
+    {
+      "path": "videos/CTA.mp4",
+      "size": 3867472,
+      "ext": "mp4",
+      "kind": "video",
+      "binary": true
+    },
+    {
+      "path": "videos/ContactA-poster-00001.jpg",
+      "size": 16195,
+      "ext": "jpg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "videos/ContactA-transcode.mp4",
+      "size": 495702,
+      "ext": "mp4",
+      "kind": "video",
+      "binary": true
+    },
+    {
+      "path": "videos/ContactA-transcode.webm",
+      "size": 915630,
+      "ext": "webm",
+      "kind": "video",
+      "binary": true
+    },
+    {
+      "path": "videos/ContactA.mp4",
+      "size": 1327924,
+      "ext": "mp4",
+      "kind": "video",
+      "binary": true
+    },
+    {
+      "path": "videos/ServiceC-poster-00001.jpg",
+      "size": 30625,
+      "ext": "jpg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "videos/ServiceC-transcode.mp4",
+      "size": 3322472,
+      "ext": "mp4",
+      "kind": "video",
+      "binary": true
+    },
+    {
+      "path": "videos/ServiceC-transcode.webm",
+      "size": 4371631,
+      "ext": "webm",
+      "kind": "video",
+      "binary": true
+    },
+    {
+      "path": "videos/ServiceC.mp4",
+      "size": 8755801,
+      "ext": "mp4",
+      "kind": "video",
+      "binary": true
+    },
+    {
+      "path": "videos/outputcompress-video-online.com.mp4",
+      "size": 24879530,
+      "ext": "mp4",
+      "kind": "video",
+      "binary": true
+    },
+    {
+      "path": "videos/outputcompress-video-onlinecom-poster-00001.jpg",
+      "size": 35241,
+      "ext": "jpg",
+      "kind": "image",
+      "binary": true
+    },
+    {
+      "path": "videos/outputcompress-video-onlinecom-transcode.mp4",
+      "size": 4908648,
+      "ext": "mp4",
+      "kind": "video",
+      "binary": true
+    },
+    {
+      "path": "videos/outputcompress-video-onlinecom-transcode.webm",
+      "size": 5299291,
+      "ext": "webm",
+      "kind": "video",
+      "binary": true
+    }
+  ]
+}
