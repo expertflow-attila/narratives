@@ -7123,3 +7123,25 @@ html[data-theme="light"] .theme-toggle__moon{ display:block; }
 }
 @media screen and (max-width:479px){ .theme-toggle--floating{ width:40px; height:40px; bottom:12px; left:12px; } }
 
+
+/* ===== REVIEW FIXES (added) ===== */
+/* Webflow CMS empty-state has no backend here → hide the broken "Nincs találat." bars */
+.w-dyn-empty { display: none !important; }
+
+/* CTA section sits on a dark background video → keep light text/buttons in light theme too */
+html[data-theme="light"] .cta-section {
+  --color-tokens-text-heading-strong: var(--color-base-neutral-light-100);
+  --color-tokens-text-heading-medium: var(--color-base-neutral-light-64);
+  --color-tokens-text-body-strong: var(--color-base-neutral-light-88);
+  --color-tokens-text-body-medium: var(--color-base-neutral-light-64);
+  --color-tokens-text-label-strong: var(--color-base-neutral-light-88);
+  --color-tokens-text-label-medium: var(--color-base-neutral-light-64);
+  --color-tokens-icon-strong: var(--color-base-neutral-light-100);
+  --color-tokens-icon-medium: var(--color-base-neutral-light-64);
+  --color-tokens-button-primary-default-background: var(--color-base-neutral-light-100);
+  --color-tokens-button-primary-default-text: var(--color-base-neutral-dark-100);
+  --color-tokens-button-primary-hover-background: var(--color-base-neutral-light-88);
+  --color-tokens-button-primary-hover-text: var(--color-base-neutral-dark-100);
+  --color-tokens-button-secondary-default-text: var(--color-base-neutral-light-100);
+  --color-tokens-button-secondary-default-background: var(--color-base-neutral-light-8);
+}
