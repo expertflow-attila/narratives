@@ -38,6 +38,7 @@
         /* Improves kerning and ligatures */
       }
     </style>
+  <script data-theme-toggle>(function(){var d=document,root=d.documentElement;function gi(){try{var s=localStorage.getItem("theme");if(s==="light"||s==="dark")return s;}catch(e){}try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: light)").matches)return "light";}catch(e){}return "dark";}root.setAttribute("data-theme",gi());function build(){if(d.querySelector(".theme-toggle"))return;var b=d.createElement("button");b.className="theme-toggle";b.type="button";b.setAttribute("aria-label","Téma váltása világos és sötét között");b.innerHTML='<svg class="theme-toggle__sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg><svg class="theme-toggle__moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>';b.addEventListener("click",function(){var cur=root.getAttribute("data-theme")==="light"?"light":"dark";var nx=cur==="light"?"dark":"light";root.setAttribute("data-theme",nx);try{localStorage.setItem("theme",nx);}catch(e){}});d.body.appendChild(b);}if(d.readyState==="loading")d.addEventListener("DOMContentLoaded",build);else build();})();</script>
 </head>
 <body>
   <div class="master-navigation">
@@ -549,109 +550,6 @@
             <div>Oops! Something went wrong while submitting the form.</div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="sales-cta-master">
-    <div class="master-sales-pages">
-      <div class="sales-menu">
-        <div class="w-layout-grid grid-sales">
-          <a href="index.html" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/Home1.webp" loading="lazy" sizes="100vw" srcset="images/Home-1-p-500.webp 500w, images/Home-1-p-800.webp 800w, images/Home-1-p-1080.webp 1080w, images/Home1.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">Homepage #1</div>
-          </a>
-          <a href="homepage/home-b.html" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/Home2.webp" loading="lazy" sizes="100vw" srcset="images/Home-2-p-500.webp 500w, images/Home-2-p-800.webp 800w, images/Home-2-p-1080.webp 1080w, images/Home2.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">Homepage #2</div>
-          </a>
-          <a href="homepage/home-c.html" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/Home3.webp" loading="lazy" sizes="100vw" srcset="images/Home-3-p-500.webp 500w, images/Home-3-p-800.webp 800w, images/Home-3-p-1080.webp 1080w, images/Home3.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">Homepage #3</div>
-          </a>
-          <a href="service/service-a.html" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/Service1.webp" loading="lazy" sizes="100vw" srcset="images/Service-1-p-500.webp 500w, images/Service-1-p-800.webp 800w, images/Service-1-p-1080.webp 1080w, images/Service1.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">Service #1</div>
-          </a>
-          <a href="service/service-b.html" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/Service2.webp" loading="lazy" sizes="100vw" srcset="images/Service-2-p-500.webp 500w, images/Service-2-p-800.webp 800w, images/Service-2-p-1080.webp 1080w, images/Service2.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">Service #2</div>
-          </a>
-          <a href="service/service-c.html" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/Service3.webp" loading="lazy" sizes="100vw" srcset="images/Service-3-p-500.webp 500w, images/Service-3-p-800.webp 800w, images/Service-3-p-1080.webp 1080w, images/Service3.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">Service #3</div>
-          </a>
-          <a href="contact/contact-a.html" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/Contact1.webp" loading="lazy" sizes="100vw" srcset="images/Contact-1-p-500.webp 500w, images/Contact-1-p-800.webp 800w, images/Contact-1-p-1080.webp 1080w, images/Contact1.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">Contact #1</div>
-          </a>
-          <a href="contact/contact-b.html" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/Contact2.webp" loading="lazy" sizes="100vw" srcset="images/Contact-2-p-500.webp 500w, images/Contact-2-p-800.webp 800w, images/Contact-2-p-1080.webp 1080w, images/Contact2.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">Contact #2</div>
-          </a>
-          <a href="contact/contact-c.html" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/Contact3.webp" loading="lazy" sizes="100vw" srcset="images/Contact-3-p-500.webp 500w, images/Contact-3-p-800.webp 800w, images/Contact-3-p-1080.webp 1080w, images/Contact3.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">Contact #3</div>
-          </a>
-          <a href="about.html" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/About_2.webp" loading="lazy" sizes="100vw" srcset="images/About_2-p-500.webp 500w, images/About_2-p-800.webp 800w, images/About_2-p-1080.webp 1080w, images/About_2.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">About</div>
-          </a>
-          <a href="careers.html" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/Careers_2.webp" loading="lazy" sizes="100vw" srcset="images/Careers_2-p-500.webp 500w, images/Careers_2-p-800.webp 800w, images/Careers_2-p-1080.webp 1080w, images/Careers_2.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">Careers</div>
-          </a>
-          <a href="/careers/risk-mapping-analyst" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/CareerPage.webp" loading="lazy" sizes="100vw" srcset="images/Career-Page-p-500.webp 500w, images/Career-Page-p-800.webp 800w, images/Career-Page-p-1080.webp 1080w, images/CareerPage.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">Job (CMS)</div>
-          </a>
-          <a href="pricing.html" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/Pricing.webp" loading="lazy" sizes="100vw" srcset="images/Pricing-p-500.webp 500w, images/Pricing-p-800.webp 800w, images/Pricing-p-1080.webp 1080w, images/Pricing.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">Pricing</div>
-          </a>
-          <a href="news-insights.html" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/Blog.webp" loading="lazy" sizes="100vw" srcset="images/Blog-p-500.webp 500w, images/Blog-p-800.webp 800w, images/Blog-p-1080.webp 1080w, images/Blog.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">Blog</div>
-          </a>
-          <a href="/news-insights/decoding-risk-a-new-approach-to-operational-oversight" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/BlogArticle.webp" loading="lazy" sizes="100vw" srcset="images/Blog-Article-p-500.webp 500w, images/Blog-Article-p-800.webp 800w, images/Blog-Article-p-1080.webp 1080w, images/BlogArticle.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">Blog Article</div>
-          </a>
-          <a href="privacy-policy.html" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/Legal.webp" loading="lazy" sizes="100vw" srcset="images/Legal-p-500.webp 500w, images/Legal-p-800.webp 800w, images/Legal-p-1080.webp 1080w, images/Legal.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">Legal</div>
-          </a>
-          <a href="404.html" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/404.webp" loading="lazy" sizes="100vw" srcset="images/404-p-500.webp 500w, images/404-p-800.webp 800w, images/404-p-1080.webp 1080w, images/404.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">404</div>
-          </a>
-          <a href="401.html" class="sales-card w-inline-block">
-            <div class="sales-card-image"><img src="images/Password.webp" loading="lazy" sizes="100vw" srcset="images/Password-p-500.webp 500w, images/Password-p-800.webp 800w, images/Password-p-1080.webp 1080w, images/Password.webp 1440w" alt="" class="image-cover"></div>
-            <div class="text-sales-card">Password</div>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="master-sales-ctas">
-      <div class="sales-cta">
-        <a href="https://www.byq.studio/" target="_blank" class="sales-link w-inline-block"><img data-w-id="85b767f3-a3f0-289e-a9b9-61a64fcfc7a7" loading="lazy" alt="" src="images/_assets/685544e836b038d602b7f814_BYQ.svg" class="sales-logo"></a>
-        <div data-w-id="85b767f3-a3f0-289e-a9b9-61a64fcfc7a8" class="cta-sales">
-          <div class="cta-sales-button-text">Pages</div>
-          <div class="icon-explore-button w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16" fill="none">
-              <path d="M12 10L8 6L4 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg></div>
-        </div>
-        <div data-w-id="85b767f3-a3f0-289e-a9b9-61a64fcfc7ac" class="button-with-tooltip">
-          <div class="wrap-button-tooltip">
-            <div class="button-tooltip">
-              <div class="tooltip-bottom"></div>
-              <div class="text-small text-medium">Get full access on request after purchase</div>
-            </div>
-          </div>
-          <a href="https://www.figma.com/design/XlkGfC913CMq7bt9fNGupX/Modulabs---Template-by-BYQ-Studio?node-id=100-49968&amp;t=xU7dErifZh95FKuo-1" target="_blank" class="cta-sales figma w-inline-block"><img loading="lazy" src="images/_assets/685544e89299c1a5846a8281_Figma.svg" alt="" class="icon-figma"></a>
-        </div>
-        <a href="https://www.byq.studio/template/modulabs?utm_source=figma&amp;utm_medium=referral&amp;utm_campaign=modulabs" target="_blank" class="cta-sales light w-inline-block">
-          <div>Buy</div>
-        </a>
       </div>
     </div>
   </div>

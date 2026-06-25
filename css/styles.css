@@ -7044,3 +7044,77 @@ img {
   font-style: normal;
   font-display: swap;
 }
+
+/* ===== THEME TOGGLE + LIGHT THEME (added) ===== */
+/* Light theme = exact mirror of the default dark token mapping. */
+html[data-theme="light"], html[data-theme="light"] body {
+  --color-tokens-background-base: var(--color-base-background-base-light);
+  --color-tokens-text-body-strong: var(--color-base-neutral-dark-88);
+  --color-tokens-input-default-border: var(--color-base-neutral-dark-8);
+  --color-tokens-input-default-background: var(--color-base-neutral-dark-8);
+  --color-tokens-input-active-border: var(--color-base-neutral-dark-48);
+  --color-tokens-input-active-text: var(--color-base-neutral-dark-100);
+  --color-tokens-input-active-background: var(--color-base-neutral-dark-16);
+  --color-tokens-input-label: var(--color-base-neutral-dark-64);
+  --color-tokens-text-body-medium: var(--color-base-neutral-dark-64);
+  --color-tokens-border-subtle: var(--color-base-neutral-dark-16);
+  --color-tokens-background-lift: var(--color-base-background-lift-light);
+  --color-tokens-input-filled-border: var(--color-base-neutral-dark-16);
+  --color-tokens-text-heading-strong: var(--color-base-neutral-dark-100);
+  --color-tokens-button-primary-default-text: var(--color-base-neutral-light-100);
+  --color-tokens-button-secondary-default-text: var(--color-base-neutral-dark-100);
+  --color-tokens-button-primary-hover-text: var(--color-base-neutral-light-100);
+  --color-tokens-button-secondary-hover-text: var(--color-base-neutral-light-100);
+  --color-tokens-button-primary-default-border: var(--color-base-neutral-light-8);
+  --color-tokens-button-primary-default-background: var(--color-base-neutral-dark-100);
+  --color-tokens-button-secondary-default-border: var(--color-base-neutral-dark-8);
+  --color-tokens-button-secondary-default-background: var(--color-base-neutral-dark-8);
+  --color-tokens-button-primary-hover-border: var(--color-base-neutral-light-8);
+  --color-tokens-button-primary-hover-background: var(--color-base-neutral-dark-88);
+  --color-tokens-button-secondary-hover-border: var(--color-base-neutral-light-8);
+  --color-tokens-button-secondary-hover-background: var(--color-base-neutral-dark-88);
+  --color-tokens-text-heading-medium: var(--color-base-neutral-dark-64);
+  --color-tokens-text-label-strong: var(--color-base-neutral-dark-88);
+  --color-tokens-text-label-dark-deleted-variable-b66675da-8071-0654-c4dc-840e222d3036: var(--color-base-neutral-light-88);
+  --color-tokens-text-label-medium: var(--color-base-neutral-dark-64);
+  --color-tokens-background-lift-80-opacity: var(--color-base-background-lift-opacity-light);
+  --color-tokens-icon-strong: var(--color-base-neutral-dark-100);
+  --color-tokens-icon-medium: var(--color-base-neutral-dark-64);
+  --color-tokens-background-depth: var(--color-base-background-depth-light);
+  --color-tokens-background-gradient-purposes-gradient-100: var(--color-base-neutral-light-100);
+  --color-tokens-background-gradient-purposes-gradient-0: var(--color-base-neutral-light-0);
+  --color-tokens-background-contrast: var(--color-base-neutral-dark-100);
+  --color-tokens-background-gradient-purposes-gradient-64: var(--color-base-neutral-light-64);
+  --color-tokens-button-tertiary-default-text: var(--color-base-neutral-dark-100);
+  --color-tokens-button-tertiary-hover-text: var(--color-base-neutral-dark-88);
+  --color-tokens-input-icon: var(--color-base-accent-primary);
+  --color-tokens-input-default-text: var(--color-base-neutral-dark-48);
+  --color-tokens-input-filled-background: var(--color-base-neutral-dark-8);
+  --color-tokens-input-filled-text: var(--color-base-neutral-dark-100);
+  --color-tokens-input-error-background: var(--color-base-neutral-dark-8);
+  --color-tokens-input-error-text: var(--color-base-neutral-dark-100);
+  --color-tokens-input-error-border: var(--color-base-neutral-dark-16);
+}
+html[data-theme] body { transition: background-color .35s ease, color .35s ease; }
+
+.theme-toggle{
+  position:fixed; bottom:16px; left:16px; z-index:2147483000;
+  width:44px; height:44px; padding:0; margin:0; border-radius:9999px;
+  display:inline-flex; align-items:center; justify-content:center; cursor:pointer;
+  background:var(--color-tokens-background-lift);
+  border:1px solid var(--color-tokens-border-subtle);
+  color:var(--color-tokens-icon-strong);
+  -webkit-backdrop-filter:blur(6px); backdrop-filter:blur(6px);
+  box-shadow:0 2px 12px rgba(0,0,0,.20);
+  transition:background-color .2s ease,color .2s ease,border-color .2s ease,transform .15s ease;
+}
+.theme-toggle:hover{ transform:translateY(-1px); border-color:var(--color-base-accent-primary); }
+.theme-toggle:active{ transform:translateY(0); }
+.theme-toggle:focus-visible{ outline:2px solid var(--color-base-accent-primary); outline-offset:2px; }
+.theme-toggle svg{ width:20px; height:20px; }
+.theme-toggle__sun{ display:block; }
+.theme-toggle__moon{ display:none; }
+html[data-theme="light"] .theme-toggle__sun{ display:none; }
+html[data-theme="light"] .theme-toggle__moon{ display:block; }
+@media screen and (max-width:479px){ .theme-toggle{ width:40px; height:40px; bottom:12px; left:12px; } }
+
