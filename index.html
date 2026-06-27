@@ -345,8 +345,6 @@
   </div>
   <section class="section hero-home-b-section">
     <div data-poster-url="videos/outputcompress-video-onlinecom-poster-00001.jpg" data-video-urls="videos/outputcompress-video-onlinecom-transcode.mp4,videos/outputcompress-video-onlinecom-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="video-home-b w-background-video w-background-video-atom"><video id="0d801c40-66e6-767f-fa3d-c80eed462d12-video" autoplay="" loop="" style="background-image:url(&quot;videos/outputcompress-video-onlinecom-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
-        <source src="videos/outputcompress-video-onlinecom-transcode.mp4" data-wf-ignore="true">
-        <source src="videos/outputcompress-video-onlinecom-transcode.webm" data-wf-ignore="true">
       </video>
       <div class="w-layout-blockcontainer main-container w-container">
         <div class="content-home-b">
@@ -1256,5 +1254,30 @@
   <script src="js/main.js" type="text/javascript"></script>
   <script src="js/vendor/gsap.min.js" type="text/javascript"></script>
   <script src="js/vendor/SplitText.min.js" type="text/javascript"></script>
+  <!-- Hero background: Mux HLS stream via hls.js (ported from boltagent) -->
+  <script src="js/vendor/hls.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function () {
+      var SRC = 'https://stream.mux.com/tLkHO1qZoaaQOUeVWo8hEBeGQfySP02EPS02BmnNFyXys.m3u8';
+      var video = document.getElementById('0d801c40-66e6-767f-fa3d-c80eed462d12-video');
+      if (!video) return;
+      video.muted = true;
+      video.setAttribute('playsinline', '');
+      if (window.Hls && window.Hls.isSupported()) {
+        var hls = new window.Hls({ autoStartLoad: true });
+        hls.loadSource(SRC);
+        hls.attachMedia(video);
+        hls.on(window.Hls.Events.MANIFEST_PARSED, function () {
+          video.play().catch(function () {});
+        });
+      } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        // Native HLS (Safari / iOS)
+        video.src = SRC;
+        video.addEventListener('loadedmetadata', function () {
+          video.play().catch(function () {});
+        });
+      }
+    })();
+  </script>
 </body>
 </html>
