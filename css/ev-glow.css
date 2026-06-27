@@ -65,9 +65,9 @@ section[class*="hero-"] :is(.text-size-medium,.text-size-regular,.text-size-larg
   color:#bcbcca;
 }
 
-/* Tone the imagery down so it reads restrained, not neon */
+/* Gentle safety toning (new imagery is already muted violet/blue) */
 img.image-cover{
-  filter:saturate(.6) brightness(.82) contrast(1.02);
+  filter:saturate(.88) brightness(.95);
 }
 
 /* Hairline separator from the dark hero into the next section */
