@@ -1256,5 +1256,40 @@
   <script src="js/vendor/gsap.min.js" type="text/javascript"></script>
   <script src="js/vendor/SplitText.min.js" type="text/javascript"></script>
   <!-- Hero background handled by css/ev-glow.css (subtle blue/violet glow) -->
+  <!-- EV bokeh: soft violet/blue particles rising inside the two service cards -->
+  <script type="text/javascript">
+  (function(){
+    if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var wraps = document.querySelectorAll('.image-wrap-service-expandable');
+    if (!wraps.length) return;
+    var COLORS = ['139,123,240','111,159,216','185,168,240'];
+    wraps.forEach(function(wrap){
+      var cv = document.createElement('canvas'); cv.className='ev-bokeh';
+      wrap.appendChild(cv);
+      var ctx = cv.getContext('2d'); if(!ctx) return;
+      var DPR = Math.min(window.devicePixelRatio||1, 2), W=0, H=0, ps=[];
+      function rnd(a,b){ return a + Math.random()*(b-a); }
+      function make(spread){ return { x:rnd(0,W), y: spread ? rnd(0,H) : H+rnd(0,40),
+        r:rnd(1.2,4.5), a:rnd(0.12,0.5), s:rnd(0.10,0.5), c:COLORS[(Math.random()*COLORS.length)|0] }; }
+      function size(){ W=wrap.clientWidth; H=wrap.clientHeight; cv.width=W*DPR; cv.height=H*DPR;
+        cv.style.width=W+'px'; cv.style.height=H+'px'; ctx.setTransform(DPR,0,0,DPR,0,0); }
+      function init(){ size(); var n=Math.max(16, Math.min(64, Math.round(W*H/9000))); ps=[];
+        for(var i=0;i<n;i++) ps.push(make(true)); }
+      function draw(){
+        if (wrap.clientWidth!==W || wrap.clientHeight!==H) size();
+        ctx.clearRect(0,0,W,H);
+        for (var i=0;i<ps.length;i++){ var p=ps[i];
+          p.y-=p.s; p.x+=Math.sin((p.y+i)*0.01)*0.15;
+          if (p.y < -12){ ps[i]=make(false); continue; }
+          var R=p.r*3.2, g=ctx.createRadialGradient(p.x,p.y,0,p.x,p.y,R);
+          g.addColorStop(0,'rgba('+p.c+','+p.a+')'); g.addColorStop(1,'rgba('+p.c+',0)');
+          ctx.fillStyle=g; ctx.beginPath(); ctx.arc(p.x,p.y,R,0,6.2832); ctx.fill();
+        }
+        requestAnimationFrame(draw);
+      }
+      init(); draw(); window.addEventListener('resize', init);
+    });
+  })();
+  </script>
 </body>
 </html>
