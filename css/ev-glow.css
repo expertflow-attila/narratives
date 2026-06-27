@@ -1,0 +1,65 @@
+/* ============================================================
+   EV Glow background — boltagent-style dark + blue/violet glow
+   Scoped to hero / CTA / footer sections (dark hero + glow),
+   readable light content sections stay untouched.
+   ============================================================ */
+:root{
+  --ev-black:#0a0a0b;
+  --ev-blue:#3898ec;
+  --ev-violet:#8b7bf0;
+  --ev-lavender:#c0c0e7;
+}
+
+/* Dark glow surface for hero / CTA / footer */
+section[class*="hero-"],
+.cta-section,
+.footer{
+  position:relative;
+  background-color:var(--ev-black);
+  background-image:
+    radial-gradient(circle, #8b7bf066 0%, #8b7bf000 62%),    /* violet blob  */
+    radial-gradient(circle, #3898ec4d 0%, #3898ec00 62%),    /* blue blob    */
+    radial-gradient(125% 125% at 50% 18%, #08091600 32%, #06071273 100%); /* scrim */
+  background-repeat:no-repeat;
+  background-size:96% 96%, 90% 90%, 100% 100%;
+  background-position:6% 2%, 94% 98%, 50% 18%;
+  /* slow, gentle, non-distracting colour drift */
+  animation:ev-drift 52s ease-in-out infinite alternate;
+}
+
+@keyframes ev-drift{
+  to{ background-position:16% 10%, 84% 90%, 50% 18%; }
+}
+
+/* Hide the original background videos / dark overlays so the glow shows */
+section[class*="hero-"] .w-background-video,
+.cta-section .w-background-video,
+section[class*="hero-"] [class*="overlay-hero"],
+.cta-section [class*="overlay"]{
+  display:none !important;
+}
+
+/* Keep text readable on the dark glow */
+section[class*="hero-"] :is(h1,h2,h3,h4,h5,h6),
+.cta-section :is(h1,h2,h3,h4,h5,h6){
+  color:#f4f4fa;
+}
+section[class*="hero-"] :is(p,li,blockquote,figcaption),
+.cta-section :is(p,li,blockquote,figcaption){
+  color:#c7c7d6;
+}
+/* Common Webflow text utilities inside the dark sections */
+section[class*="hero-"] :is(.text-size-medium,.text-size-regular,.text-size-large,.paragraph,.eyebrow,.subheading),
+.cta-section :is(.text-size-medium,.text-size-regular,.text-size-large,.paragraph,.eyebrow,.subheading){
+  color:#c7c7d6;
+}
+
+/* Soft luminous separator between dark hero and the next light section */
+section[class*="hero-"]{ border-bottom:1px solid #ffffff14; }
+
+/* Respect reduced-motion */
+@media (prefers-reduced-motion: reduce){
+  section[class*="hero-"],
+  .cta-section,
+  .footer{ animation:none !important; }
+}
