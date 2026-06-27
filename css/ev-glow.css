@@ -1,39 +1,41 @@
 /* ============================================================
-   EV Glow background — boltagent-style dark + blue/violet glow
-   Scoped to hero / CTA / footer sections (dark hero + glow),
-   readable light content sections stay untouched.
+   EV ambient — restrained, Linear-inspired dark background.
+   Near-black dominates; only a faint violet / sky wash (the
+   expertflow-covers icon palette) drifts very slowly behind
+   the hero / CTA / footer sections. Readable light content
+   sections stay untouched.
    ============================================================ */
 :root{
   --ev-black:#0a0a0b;
-  --ev-blue:#3898ec;
-  --ev-violet:#8b7bf0;
-  --ev-lavender:#c0c0e7;
+  --ev-violet:#9d8cf0;   /* soft lavender-violet (covers) */
+  --ev-sky:#79b4e6;      /* muted sky (covers)            */
+  --ev-rose:#e59bb0;     /* soft rose (covers)            */
 }
 
-/* Dark glow surface for hero / CTA / footer */
+/* Dark, faintly-tinted surface for hero / CTA / footer */
 section[class*="hero-"],
 .cta-section,
 .footer{
   position:relative;
   background-color:var(--ev-black);
   background-image:
-    radial-gradient(circle, #8b7bf066 0%, #8b7bf000 62%),    /* violet blob  */
-    radial-gradient(circle, #3898ec4d 0%, #3898ec00 62%),    /* blue blob    */
-    radial-gradient(125% 125% at 50% 18%, #08091600 32%, #06071273 100%); /* scrim */
+    radial-gradient(circle, #9d8cf021 0%, #9d8cf000 60%),   /* faint violet ~13% */
+    radial-gradient(circle, #79b4e618 0%, #79b4e600 60%),   /* faint sky    ~9%  */
+    radial-gradient(130% 120% at 50% 12%, #0a0a0b00 42%, #07070b 100%); /* deepening scrim */
   background-repeat:no-repeat;
-  background-size:96% 96%, 90% 90%, 100% 100%;
-  background-position:6% 2%, 94% 98%, 50% 18%;
-  /* slow, gentle, non-distracting colour drift */
-  animation:ev-drift 52s ease-in-out infinite alternate;
+  background-size:120% 120%, 112% 112%, 100% 100%;
+  background-position:8% 4%, 92% 96%, 50% 12%;
+  /* very slow, gentle drift — barely perceptible */
+  animation:ev-drift 78s ease-in-out infinite alternate;
 }
 
 @keyframes ev-drift{
-  to{ background-position:16% 10%, 84% 90%, 50% 18%; }
+  to{ background-position:14% 9%, 86% 91%, 50% 12%; }
 }
 
-/* Hide only the background VIDEO element + dark overlays so the glow shows.
-   IMPORTANT: the Webflow template nests the hero CONTENT *inside* the
-   .w-background-video atom, so we must NOT hide that container itself. */
+/* Hide only the background VIDEO element + dark overlays so the
+   ambient shows. The Webflow template nests the hero CONTENT
+   inside the .w-background-video atom, so never hide that box. */
 section[class*="hero-"] .w-background-video > video,
 .cta-section .w-background-video > video{
   display:none !important;
@@ -49,23 +51,27 @@ section[class*="hero-"] [class*="overlay-hero"],
   display:none !important;
 }
 
-/* Keep text readable on the dark glow */
+/* Keep text readable on the dark surface */
 section[class*="hero-"] :is(h1,h2,h3,h4,h5,h6),
 .cta-section :is(h1,h2,h3,h4,h5,h6){
-  color:#f4f4fa;
+  color:#f1f1f6;
 }
 section[class*="hero-"] :is(p,li,blockquote,figcaption),
 .cta-section :is(p,li,blockquote,figcaption){
-  color:#c7c7d6;
+  color:#bcbcca;
 }
-/* Common Webflow text utilities inside the dark sections */
 section[class*="hero-"] :is(.text-size-medium,.text-size-regular,.text-size-large,.paragraph,.eyebrow,.subheading),
 .cta-section :is(.text-size-medium,.text-size-regular,.text-size-large,.paragraph,.eyebrow,.subheading){
-  color:#c7c7d6;
+  color:#bcbcca;
 }
 
-/* Soft luminous separator between dark hero and the next light section */
-section[class*="hero-"]{ border-bottom:1px solid #ffffff14; }
+/* Tone the imagery down so it reads restrained, not neon */
+img.image-cover{
+  filter:saturate(.6) brightness(.82) contrast(1.02);
+}
+
+/* Hairline separator from the dark hero into the next section */
+section[class*="hero-"]{ border-bottom:1px solid #ffffff0f; }
 
 /* Respect reduced-motion */
 @media (prefers-reduced-motion: reduce){
