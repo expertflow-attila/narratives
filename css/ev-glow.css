@@ -31,11 +31,21 @@ section[class*="hero-"],
   to{ background-position:16% 10%, 84% 90%, 50% 18%; }
 }
 
-/* Hide the original background videos / dark overlays so the glow shows */
+/* Hide only the background VIDEO element + dark overlays so the glow shows.
+   IMPORTANT: the Webflow template nests the hero CONTENT *inside* the
+   .w-background-video atom, so we must NOT hide that container itself. */
+section[class*="hero-"] .w-background-video > video,
+.cta-section .w-background-video > video{
+  display:none !important;
+}
 section[class*="hero-"] .w-background-video,
-.cta-section .w-background-video,
+.cta-section .w-background-video{
+  background-color:transparent !important;
+  background-image:none !important;
+}
 section[class*="hero-"] [class*="overlay-hero"],
-.cta-section [class*="overlay"]{
+.cta-section [class*="overlay-cta"],
+.cta-section [class*="overlay-hero"]{
   display:none !important;
 }
 
